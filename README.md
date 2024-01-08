@@ -1,5 +1,7 @@
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&width=650&lines=Проект:+"10+Vanilla+JS+Projects")](https://git.io/typing-svg)
 
+![10 Vanilla JavaScript Projects ](https://github.com/Shnd3r/10-Vanilla-JS-Projects/assets/116545792/1363b07e-4813-4e3a-9f88-0d68c9833ade)
+
 ## Описание проекта:
 "10 Vanilla JS Projects" - это многостраничный сайт, который включает в себя 10 мини-проектов, для решения различных задач повседневной жизни.
 
@@ -9,7 +11,7 @@
 - Приложение для отслеживания актуальной информации о погоде (Weather App)
 - Музыкальный плеер (Music Player)
 - Базовый калькулятор (с применением ООП) (Calculator)
-- To-Do List
+- Приложение для составления списка дел (To-Do List)
 - Генератор случайных паролей (Random Password Generator)
 - Генератор QR-кодов (QR-Code Generator) 
 - Генератор цитат (Quote Generator)
