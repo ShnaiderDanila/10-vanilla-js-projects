@@ -1,6 +1,6 @@
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&width=650&lines=Проект:+"10+Vanilla+JS+Projects")](https://git.io/typing-svg)
 
-![10 Vanilla JavaScript Projects ](https://github.com/Shnd3r/10-Vanilla-JS-Projects/assets/116545792/1363b07e-4813-4e3a-9f88-0d68c9833ade)
+![10 Vanilla JavaScript Projects](https://github.com/Shnd3r/10-Vanilla-JS-Projects/assets/116545792/873f4901-b803-4560-8777-7837de39110e)
 
 ## Описание проекта:
 "10 Vanilla JS Projects" - это многостраничный сайт, который включает в себя 10 мини-проектов, для решения различных задач повседневной жизни.
