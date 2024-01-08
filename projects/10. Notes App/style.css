@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Popins', sans-serif;
+  box-sizing: border-box;
+}
+
+.notes-app {
+  width: 100%;
+  min-height: 100vh;
+  background: #606c88;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f4c6b, #606c88);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  padding: 4% 2% 4% 4%;
+}
+
+.notes-app__title {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.notes-app__note-icon {
+  width: 60px;
+}
+
+.notes-app__create-icon {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.notes-app__create-button {
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#9418fd, #571094);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s ease;
+}
+
+.notes-app__create-button:hover {
+  opacity: 0.7;
+}
+
+.notes-app__notes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.notes-app__note {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.notes-app__input-box {
+  width: 100%;
+  min-height: 120px;
+  padding-right: 15px;
+  outline: none;
+  resize: none;
+  border: none;
+  overflow: auto;
+  color: #333;
+  font-size: 16px;
+}
+
+.notes-app__input-box::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+
+.notes-app__input-box::-webkit-scrollbar-thumb {
+  background: linear-gradient(#9418fd, #571094);
+  border-radius: 40px;
+}
+
+.notes-app__delete-icon {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  user-select: none;
+  cursor: pointer;
+}

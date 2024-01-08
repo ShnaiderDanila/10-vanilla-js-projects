@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #4B79A1;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #283E51, #4B79A1);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+.password-generator {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+.password-generator__title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 1.4;
+}
+
+.password-generator__span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+
+.password-generator__display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 26px 20px;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.password-generator__input {
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+.password-generator__copy-img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.password-generator__generate-img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.password-generator__button {
+  border: none;
+  outline: none;
+  background-color: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.password-generator__button:hover {
+  opacity: 0.7;
+}
+
+.password-generator__tooltip {
+  margin-top: 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}

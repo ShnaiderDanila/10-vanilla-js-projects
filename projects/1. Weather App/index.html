@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <article class="card">
+    <form class="search">
+      <input class="search__input" type="text" placeholder="Введите название города" spellcheck="false">
+      <button class="search__button" type="submit">
+        <img class="search__button-icon" src="./images/search.png" alt="Кнопка поиска">
+      </button>
+    </form>
+    <p class="error">Такого города не существует, попробуйте еще раз!</p>
+    <div class="weather">
+      <img class="weather__icon" src="./images/rain.png" alt="Картинка погоды">
+      <h1 class="weather__temp">22°C</h1>
+      <h2 class="weather__city">New York</h2>
+      <div class="weather__details">
+        <div class="weather__column">
+          <img class="weather__details-icon" src="./images/humidity.png" alt="Влажность">
+          <div class="weather__container">
+            <p class="weather__humidity weather__value">50%</p>
+            <p class="weather__text">Влажность</p>
+          </div>
+        </div>
+        <div class="weather__column">
+          <img class="weather__details-icon" src="./images/wind.png" alt="Ветер">
+          <div class="weather__container">
+            <p class="weather__wind weather__value">15 м/с</p>
+            <p class="weather__text">Ветер</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <script src="./main.js"></script>
+</body>
+
+</html>

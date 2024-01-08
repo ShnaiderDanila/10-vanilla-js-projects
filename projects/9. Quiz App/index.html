@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <article class="quiz">
+    <h1 class="quiz__title">Квиз</h1>
+    <div class="quiz__container">
+      <h2 id="question">Вопрос</h2>
+      <div class="quiz__answer-buttons"></div>
+      <button class="quiz__next-button"></button>
+    </div>
+  </article>
+  <template id="quiz__answer-button-template">
+    <button class="quiz__answer-button"></button>
+  </template>
+  <script src="./main.js"></script>
+</body>
+</html>

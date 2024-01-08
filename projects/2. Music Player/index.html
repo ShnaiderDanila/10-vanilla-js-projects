@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/e692ea5759.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="page">
+    <div class="music-player">
+      <div class="music-player__wrapper">
+        <div class="music-player__details">
+          <p class="music-player__now-playing">Сейчас играет 1 из 3</p>
+          <div class="music-player__track-art"></div>
+          <p class="music-player__track-name">Track Name</p>
+          <p class="music-player__track-artist">Track Artist</p>
+        </div>
+        <div class="music-player__slider-container">
+          <p class="music-player__current-time">00:00</p>
+          <input
+            class="music-player__duration-slider"
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            onchange="setCurrentDuration()"
+          />
+          <p class="music-player__total-duration">00:00</p>
+        </div>
+        <div class="music-player__slider-container">
+          <button
+            class="music-player__button music-player__volume-button"
+            type="button"
+            onclick="setMinVolume()"
+          >
+            <i class="fa fa-volume-down fa-volume-xmark"></i>
+          </button>
+          <input
+            class="music-player__volume-slider"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            onchange="setCurrentVolume()"
+          />
+          <button
+            class="music-player__button music-player__volume-button"
+            type="button"
+            onclick="setMaxVolume()"
+          >
+            <i class="fa fa-volume-up"></i>
+          </button>
+        </div>
+        <div class="music-player__buttons">
+          <button
+            class="music-player__random-track music-player__button music-player__control-button"
+            onclick="randomTrack()"
+          >
+            <i class="fa fa-random fa-2x" title="Случайный трек"></i>
+          </button>
+          <button
+            class="music-player__prev-track music-player__button music-player__control-button"
+            onclick="prevTrack()"
+          >
+            <i class="fa fa-step-backward fa-2x" title="prev-track"></i>
+          </button>
+          <button
+            class="music-player__playpause-track music-player__button music-player__control-button"
+            onclick="playpauseTrack()"
+          >
+            <i class="fa fa-play-circle fa-5x" title=""></i>
+          </button>
+          <button
+            class="music-player__next-track music-player__button music-player__control-button"
+            onclick="nextTrack()"
+          >
+            <i class="fa fa-step-forward fa-2x" title="random-track"></i>
+          </button>
+          <button
+            class="music-player__repeat-track music-player__button music-player__control-button"
+            onclick="repeatTrack()"
+          >
+            <i class="fa fa-repeat fa-2x" title="repeat"></i>
+          </button>
+        </div>
+
+        <div class="wave">
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+          <span class="stroke"></span>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

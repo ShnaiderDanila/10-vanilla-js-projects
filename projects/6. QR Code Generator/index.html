@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR-Code Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="page">
+  <div class="qr-code-generator">
+    <h1 class="qr-code-generator__title">Генератор <span class="qr-code-generator__span">QR-кода</span></h1>
+    <div class="qr-code-generator__container">
+      <p class="qr-code-generator__text">Введите текст или URL-адрес страницы</p>
+      <input class="qr-code-generator__input" type="text" placeholder="Текст или URL-адрес">
+      <div class="qr-code-generator__button-box">
+        <a class="qr-code-generator__save-button btn" target="_blank">Сохранить</a>
+        <button class="qr-code-generator__copy-button btn" type="button">Копировать</button>
+      </div>
+      <div class="qr-code-generator__img-box">
+        <img class="qr-code-generator__code-img" src="" alt="QR Код">
+      </div>
+      <p class="qr-code-generator__tooltip">QR-код успешно скопирован!</p>
+      <button class="qr-code-generator__generate-button btn" type="button">Сгенерировать</button>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

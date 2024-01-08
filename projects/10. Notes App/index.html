@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="notes-app">
+    <h1 class="notes-app__title">
+      <img class="notes-app__note-icon" src="images/notes.png" alt="Иконка заметок">
+      Заметки
+    </h1>
+    <button class="notes-app__create-button">
+      <img class="notes-app__create-icon" src="images/edit.png" alt="Иконка создания заметки">
+      Создать заметку
+    </button>
+    <div class="notes-app__notes"></div>
+  </div>
+  <template id="note-template">
+    <label class="notes-app__note">
+      <textarea class="notes-app__input-box" maxlength="370"></textarea>
+      <img class="notes-app__delete-icon" src="images/delete.png" alt="Иконка удаления заметки">
+    </label>
+  </template>
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Password App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="password-generator">
+    <h1 class="password-generator__title">Генератор <br><span class="password-generator__span">Случайных паролей</span>
+    </h1>
+    <div class="password-generator__display">
+      <input class="password-generator__input" type="text" id="password" placeholder="Пароль">
+      <img class="password-generator__copy-img" src="images/copy.png" alt="Иконка копирования">
+    </div>
+    <button class="password-generator__button">
+      <img class="password-generator__generate-img" src="images/generate.png" alt="Иконка молнии">
+      Сгенерировать пароль
+    </button>
+    <p class="password-generator__tooltip">Пароль успешно скопирован</p>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

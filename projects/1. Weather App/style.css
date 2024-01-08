@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Popins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #141E30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: #00d2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #00d2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 30px;
+  color: #555;
+  min-height: 60px;
+  flex: 1;
+  padding: 10px 25px;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search__button {
+  border: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  min-height: 60px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.search__button:hover {
+  opacity: 0.8;
+}
+
+.search__button-icon {
+  width: 16px;
+}
+
+.weather__icon {
+  max-width: 170px;
+  margin-top: 30px;
+}
+
+.weather__temp {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.weather__city {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.weather__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.weather__column {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.weather__details-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.weather__value {
+  font-size: 28px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  display: none;
+}
