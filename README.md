@@ -1,1 +1,1 @@
-# 10-Vanila-JS-Projects
+# 10-Vanilla-JS-Projects
