@@ -3,7 +3,7 @@
 ![10 Vanilla JavaScript Projects](https://github.com/Shnd3r/10-Vanilla-JS-Projects/assets/116545792/873f4901-b803-4560-8777-7837de39110e)
 
 ## Описание проекта:
-"10 Vanilla JS Projects" - это многостраничный сайт, который включает в себя 10 мини-проектов, для решения различных задач повседневной жизни.
+"10 Vanilla JS Projects" - это многостраничный сайт, который включает в себя 10 мини-проектов, для решения различных задач из повседневной жизни.
 
 [Ссылка на проект - GitHub Pages](https://shnd3r.github.io/10-Vanilla-JS-Projects/)
 
