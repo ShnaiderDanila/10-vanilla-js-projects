@@ -5,7 +5,7 @@
 ## Описание проекта:
 "10 Vanilla JS Projects" - это многостраничный сайт, который включает в себя 10 мини-проектов, для решения различных задач из повседневной жизни.
 
-[Ссылка на проект - GitHub Pages](https://shnd3r.github.io/10-Vanilla-JS-Projects/)
+[Ссылка на проект - GitHub Pages](https://shnaiderdanila.github.io/10-vanilla-js-projects/)
 
 ## Проект включает в себя:
 - Приложение для отслеживания актуальной информации о погоде (Weather App)
