@@ -1,4 +1,4 @@
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&width=650&lines=Проект:+"10+Vanilla+JS+Projects")](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&width=650&lines=10+Vanilla+JS+Projects)](https://git.io/typing-svg)
 
 ![10-vanila-js-projects](https://github.com/ShnaiderDanila/10-vanilla-js-projects/assets/116545792/c6a81cdf-9a57-4f02-973b-5ba3bd5d0a91)
 
